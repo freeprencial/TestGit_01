@@ -1,0 +1,100 @@
+.logo{
+    font-size: 50px;
+    text-shadow: 5px 0px 5px;
+    float: left;
+}
+.nav{
+    background-color: orange;
+    width: 100%;
+    height: 70px;
+}
+
+.div1{
+    width: 110px;
+    float: right;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.foot{
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+}
+.btmright{
+    width: 50%;
+    float: left;
+
+}
+ul{
+    list-style-position: inside;
+}
+.sectionl{
+    display: none;
+    position: absolute;
+    height:150px;
+}
+.section2{
+    display: none;
+    position: absolute;
+    width: 200px;
+}
+.bigmenus{
+    height: 100%;
+    width: 25%;
+    background-color: orange;
+}
+.bigmenus>div{
+    text-align: center;
+}
+.topmenus-big{
+  border-top:1px solid black;
+    height: 10%;
+    width: 100%;
+    line-height: 50px;
+    cursor: pointer;
+}
+.secondmenus-big>div{
+    border-top:1px solid black;
+    height: 15%;
+    width: 100%;
+    cursor: pointer;
+    line-height: 50px;
+}
+.secondmenus-big>div:last-child{
+    border-bottom: 1px solid black;
+}
+.secondmenus-big{
+    display: none;
+    height: 49%;
+    background-color: coral;
+    overflow: auto;
+}
+
+#nav1{
+    display: block;
+}
+.body>div{
+    float: left;
+}
+#main{
+    width: 75%;
+    height: 100%;
+    background-color: orangered;
+
+}
+.tabs{
+    width: 100%;
+    height: 5%;
+    background-color: coral;
+
+}
+.tab{
+    border-right:0.5px solid black ;
+    line-height: 30px;
+    height:100%;
+    text-align: center;
+    float: left;
+    width: 12%;
+    cursor: pointer;
+}
